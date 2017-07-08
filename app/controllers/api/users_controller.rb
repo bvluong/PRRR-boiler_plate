@@ -1,4 +1,5 @@
 class Api::UsersController < ApplicationController
+
   def index
     @users = User.all
   end
@@ -14,7 +15,7 @@ class Api::UsersController < ApplicationController
   end
 
   def show
-    @user = User.includes(:channels).find(params[:id])
+    @user = User.find(params[:id])
     render :show
   end
 
