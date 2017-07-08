@@ -13,7 +13,11 @@
 !/log/.keep
 !/tmp/.keep
 
-/node_modules
+/node_modulesbundle.js
+bundle.js
+bundle.js.map
+.DS_Store
 /yarn-error.log
-
+npm-debug.log
+*.mp4
 .byebug_history
